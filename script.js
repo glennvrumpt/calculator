@@ -1,10 +1,11 @@
 let currentNumber = '';
 let previousNumber = '';
 let operator;
-const display = document.querySelector('.display');
-const temp = document.querySelector('.temp');
 
 window.addEventListener('keydown', handleKeyPress);
+
+const display = document.querySelector('.display');
+const temp = document.querySelector('.temp');
 
 const numbers = document.querySelectorAll('.number');
 numbers.forEach(function (e) {
